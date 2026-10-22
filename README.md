@@ -2,166 +2,147 @@
 
 > Supercharge your team development with Claude Code on Bedrock
 
-In this hands-on workshop, you will learn how to accelerate team development and scale Claude Code deployments on Amazon Bedrock. You'll discover how to configure team environments, establish standards and workflows, and maximize Claude Code's capabilities to transform coding workflows — making code writing, debugging, testing, and project management more efficient across your organization. Additionally, you'll learn advanced deployment patterns for Claude agents using the Agent SDK on Amazon Bedrock AgentCore Runtime. The workshop emphasizes best practices from Anthropic and Amazon (such as AI-DLC, Spec-Driven Development, and Agent SOPs) to help teams get the most out of this powerful AI coding assistant.
+A hands-on workshop for accelerating team development and scaling Claude Code on Amazon Bedrock. You'll configure team environments, establish standards and workflows, run always-on agents, govern costs, and explore the broader Claude ecosystem — guided by best practices from Anthropic and Amazon including AI-DLC, Spec-Driven Development, and Agent SOPs.
 
-**Suitable for:** Developers, engineering leaders, technical leads, and DevOps professionals from small to large teams looking to learn Claude Code concepts to improve productivity and scale, and/or roll out Claude Code to their team.
+**Suitable for:** Developers, engineering leaders, technical leads, and DevOps professionals looking to improve productivity or roll out Claude Code to their team.
 
-**Level:** 300 (Advanced) — No background knowledge necessary, though familiarity with TypeScript or Python and AWS services will be useful.
+**Level:** 300 (Advanced) — familiarity with TypeScript or Python and AWS services is helpful but not required.
 
-**Duration:** ~3 hours
+**Duration:** ~3 hours · AWS-run events only
 
-> This workshop is optimized for AWS-run events. If running in your own AWS account, ensure you clean up any unused resources to avoid incurring costs.
+---
 
 ## Agenda
 
 | Time | Duration | Session |
 |------|----------|---------|
-| 8:00 – 8:15 | 15 min | Introduction & Getting Started |
+| 8:00 – 8:15 | 15 min | Getting Started |
 | 8:15 – 9:15 | 60 min | Lab 1: Setup Claude Code for teams |
 | 9:15 – 10:00 | 45 min | Lab 2: Establish team standards and workflows |
 | 10:00 – 10:45 | 45 min | Lab 3: Level up your team with always-on agents, plugins, and search |
 | 10:45 – 11:30 | 45 min | Lab 4: Scale confidently with visibility, cost controls, and secure practices |
-| 11:30 – 12:00 | 30 min | Lab 5: Beyond Claude Code, Summary & Closing |
+| 11:30 – 12:00 | 30 min | Lab 5: Beyond Claude Code · Summary & Closing |
 
-## Session Details
+---
 
-### Introduction & Getting Started (15 min)
-- Setup your workshop
-- Setup your IDE
-- Setup your AWS environment in terminal
+## Labs
+
+### Getting Started (15 min)
+- Set up your workshop and IDE
+- Configure your AWS environment in terminal
+
+---
 
 ### Lab 1: Setup Claude Code for Teams (60 min)
 
 Configure Claude Code to work with Amazon Bedrock and learn deployment patterns for scaling across your team.
 
-**What you'll learn:**
 - Configure your environment and select models in Amazon Bedrock
 - Plan team capacity by understanding Amazon Bedrock quotas
 - Monitor costs and set up AWS budgets to track team usage
 - *(Optional)* Choose authentication patterns and infrastructure options for your team deployment
 - *(Optional)* Install the IDE extension to use Claude Code in VS Code
 
+---
+
 ### Lab 2: Establish Team Standards and Workflows (45 min)
 
-Learn advanced Claude Code techniques to enhance your development workflow and enable effective team collaboration. You'll establish team standards, master the Explore-Plan-Code-Commit methodology, scale workflows with Agent Skills, and manage large projects efficiently.
+Establish team standards, master the Explore-Plan-Code-Commit (EPCC) methodology, scale workflows with Agent Skills, and manage large projects efficiently.
 
-**What you'll learn:**
 - Establish team standards with CLAUDE.md files and custom slash commands
-- Learn the drawbacks of vibe coding and how the Explore-Plan-Code-Commit methodology provides systematic development with specialized agents
-- Learn context engineering with Agent Skills and how to scale domain expertise across your team through reusable, composable workflows
+- Learn how EPCC provides systematic development with specialized agents — replacing ad-hoc "vibe coding"
+- Scale domain expertise across your team with reusable, composable Agent Skills
 - Manage large projects by maintaining context and navigating complex codebases efficiently
-- *(Optional)* **Explore session productivity tips:**
-  - Ask side questions with `/btw`
-  - Drive work to completion with `/goal`
-  - Run prompts on a schedule with `/loop`
-  - Work beyond code: images, data, and Jupyter notebooks
-  - Automate guardrails and workflows with hooks
-  - Analyze your sessions with `/insights`
-  - Improve your skills with `/skill-creator`
-  - Tune your session with `/effort` and auto mode
-- *(Optional)* **Use git and parallel workflows:**
-  - Use git worktrees for parallel workflows
-  - Interact with git to understand project history and context
-  - Orchestrate teams of Claude Code sessions with agent teams
-  - Orchestrate with dynamic workflows
-- *(Optional)* **Extend Claude Code with integrations:**
-  - Connect Skills to remote APIs: browser automation using AgentCore Browser Tool
-  - Use Agent Toolkit for AWS with Claude Code
+
+**Optional — Session productivity tips:**
+- Ask side questions with `/btw` · Drive work to completion with `/goal` · Run prompts on a schedule with `/loop`
+- Work beyond code: images, data, and Jupyter notebooks
+- Automate guardrails and workflows with hooks
+- Analyze your sessions with `/insights` · Improve your skills with `/skill-creator` · Tune with `/effort` and auto mode
+
+**Optional — Git and parallel workflows:**
+- Use git worktrees for parallel workflows
+- Interact with git to understand project history and context
+- Orchestrate teams of Claude Code sessions with agent teams and dynamic workflows
+
+**Optional — Integrations:**
+- Connect Skills to remote APIs via browser automation using AgentCore Browser Tool
+- Use Agent Toolkit for AWS with Claude Code
+
+---
 
 ### Lab 3: Level Up Your Team with Always-On Agents, Plugins, and Search (45 min)
 
-Scale beyond your local machine by running persistent agents, distributing reusable workflows as plugins across your team, and connecting Claude Code to real-time web information.
+Run persistent agents, distribute reusable workflows as plugins, and connect Claude Code to real-time web information.
 
-**Prerequisites:** Complete Lab 1 (team setup) and have Claude Code configured with Amazon Bedrock before proceeding.
+- **Always-on agents** — Fire off a task, close your laptop, and return to find the work done using Amazon Bedrock AgentCore Runtime
+- **Plugin distribution** — Install, fork, and customize plugins into your own team marketplace to enforce standards
+- **Web search** — Connect Claude Code to real-time information using Amazon Bedrock AgentCore
+- **Patterns and plugins** — Hands-on examples: Security review · Smart documentation · Quality gates
 
-**What you'll learn:**
-- **Run always-on agents** — Fire off a coding task, close your laptop, and come back to find the work done using Amazon Bedrock AgentCore Runtime
-- **Distribute workflows as plugins** — Install existing plugins, fork and customize them into your own marketplace, and enforce team-wide standards
-- **Add web search** — Connect Claude Code to real-time web information using Amazon Bedrock AgentCore
-- **Explore patterns and plugins** — Discover popular community plugins and try hands-on examples:
-  - Example: Security review
-  - Example: Smart documentation
-  - Example: Quality gates
+---
 
 ### Lab 4: Scale Confidently with Visibility, Cost Controls, and Secure Practices (45 min)
 
-Learn how to govern Claude Code usage across your organization — controlling who can access which models, enforcing spend limits, attributing cost to individual developers, and establishing secure practices.
+Govern Claude Code across your organization — controlling model access, enforcing spend limits, attributing costs to individual developers, and establishing secure practices.
 
-**What you'll be working with:**
-- **Claude Apps Gateway** — a native solution built into the `claude` binary. Developers sign in with corporate SSO instead of holding API keys, and the gateway enforces model access, per-user spend limits, and managed settings server-side on every request.
-- **Amazon CloudWatch Coding Agent Insights** — managed dashboards showing adoption, token usage, cost, and productivity per developer. They populate automatically from the telemetry the gateway relays — no build or deploy required.
+**Claude Apps Gateway** — built into the `claude` binary. Developers sign in with corporate SSO; the gateway enforces model access, per-user spend limits, and managed settings server-side on every request. No API keys on developer machines.
 
-> Spend limits stop a request before inference happens. The dashboards tell you what was spent after the fact. Each is useful on its own, and you can adopt them in either order.
+**Amazon CloudWatch Coding Agent Insights** — managed dashboards for adoption, token usage, cost, and productivity per developer, populated automatically from gateway telemetry. Nothing to build or deploy.
 
-**What you'll learn:**
+> Spend limits block requests before inference. Dashboards report what was spent afterward. Adopt either independently, in any order.
+
 - Connect Claude Code through the Claude Apps Gateway with SSO authentication
 - Enforce per-group model access and spend limits via the gateway's Admin API
-- Deliver managed settings centrally — permissions, hooks, MCP restrictions, and environment variables — without touching developer machines
-- Explain how the gateway relays identity-stamped usage telemetry to Amazon CloudWatch
-- Attribute cost, token usage, and productivity to individual developers in Coding Agent Insights
-- *(Optional)* Establish secure governance practices for team deployments
+- Deliver managed settings centrally — permissions, hooks, MCP restrictions, and environment variables
+- Route identity-stamped usage telemetry to Amazon CloudWatch and Coding Agent Insights
+- *(Optional)* Establish secure governance practices: security hooks, MCP approval workflows, dev container isolation
 
-### Lab 5: Beyond Claude Code, Summary & Closing (30 min)
+---
 
-Explore the broader Claude ecosystem on AWS — from building production agents to using Claude across every surface where you work.
+### Lab 5: Beyond Claude Code (30 min)
 
-#### Claude Agent SDK on Amazon Bedrock AgentCore
+Explore the broader Claude ecosystem on AWS.
 
-Claude Agent SDK gives you the same tools, agent loop, and context management that power Claude Code, packaged as a library. Your agents get real tool execution (Bash, file editing, web search, MCP), battle-tested reasoning patterns, and powerful context engineering through skills and CLAUDE.md files.
+**Claude Agent SDK on Amazon Bedrock AgentCore** — the same tools, agent loop, and context management that power Claude Code, packaged as a library. AgentCore handles production deployment: isolated execution, credentials, auto-scaling, and observability.
 
-Amazon Bedrock AgentCore handles the hard parts of production deployment — session management, security, scaling, and observability — so you focus on what your agent does, not how it runs.
+Example agent use cases:
+- Front-line engineer — triages incidents by reading logs, running diagnostics, suggesting fixes
+- Background SRE — monitors system health and addresses issues before they become outages
+- Data platform — detects schema changes, updates pipelines, validates data quality
+- Security compliance — scans repos, identifies vulnerabilities, generates remediation PRs
 
-**Example use cases:**
-- **Front-line engineer agent** — Triages production incidents by reading logs, running diagnostics, and suggesting fixes
-- **Background SRE agent** — Continuously monitors system health and proactively addresses issues before they become outages
-- **Data platform agent** — Automatically detects schema changes, updates downstream pipelines, and validates data quality
-- **Security compliance agent** — Scans repositories, identifies vulnerabilities, and generates remediation pull requests
+**Claude Desktop** — the graphical companion to Claude Code for visual context, native worktrees, parallel sessions, multimodal input (screenshots, diagrams), and MCP integration.
 
-#### Claude Desktop
+**Claude API** — programmatic access via the Anthropic SDK or Amazon Bedrock InvokeModel for custom chat interfaces, automated pipelines, embedded AI features, and batch processing workflows.
 
-Claude Desktop is the graphical companion to Claude Code — ideal for visual context, parallel development branches, or multimodal workflows.
+**One ecosystem, many surfaces** — your Amazon Bedrock configuration, spend limits, and governance policies apply consistently across Claude Code, Claude Desktop, and the Claude API.
 
-**Key capabilities for developers:**
-- **Native worktrees** — Work on multiple branches simultaneously, each in its own Claude conversation with full project context
-- **Parallel Claude sessions** — Run multiple Claude instances side by side for different tasks
-- **Multimodal input** — Drag and drop screenshots, diagrams, or design mockups directly into the conversation
-- **MCP integration** — Connect to the same MCP servers you use in Claude Code, with a visual interface for managing connections
+---
 
-Claude Desktop shares the same model access through Amazon Bedrock, so your team's quotas, spend limits, and governance policies apply uniformly across both surfaces.
+## Key Takeaways
 
-#### Claude API
+| Lab | What you walked away with |
+|-----|--------------------------|
+| Lab 1 | Claude Code running on Bedrock, team capacity planned, costs monitored, auth pattern selected |
+| Lab 2 | CLAUDE.md standards, EPCC workflow, Agent Skills library, git worktrees, hook automation |
+| Lab 3 | Always-on agents via AgentCore, plugin marketplace, web search, reusable security/doc/quality patterns |
+| Lab 4 | Claude Apps Gateway with SSO, per-group spend limits, centralized settings, CloudWatch dashboards |
+| Lab 5 | Agent SDK on AgentCore for production agents, Claude Desktop + API integration patterns |
 
-For fully custom integrations, the Claude API (via the Anthropic SDK or Amazon Bedrock's InvokeModel API) gives you programmatic access to build:
-- Custom chat interfaces and internal tools
-- Automated pipelines that process documents, generate reports, or review code at scale
-- Embedded AI features within your existing applications
-- Batch processing workflows for large-scale analysis
-
-#### One Ecosystem, Many Surfaces
-
-Whether you're using Claude Code in the terminal, Claude Desktop for visual workflows, or the Claude API for custom integrations — your Amazon Bedrock configuration, spend limits, and governance policies apply consistently. The skills and patterns built in this workshop transfer directly to every Claude surface.
-
-## What You Accomplished
-
-- **Lab 1:** Configured Claude Code to work with Amazon Bedrock and learned deployment patterns for scaling across your team. Planned team capacity, monitored costs, and explored authentication and infrastructure options for production deployments.
-
-- **Lab 2:** Established team standards and workflows to enhance your development experience and enable effective team collaboration. Learned the Explore-Plan-Code-Commit methodology, extended Claude Code with Agent Toolkit for AWS and Agent Skills, automated browser tasks, managed large projects efficiently, integrated with git, and worked with multimodal data.
-
-- **Lab 3:** Explored advanced patterns that can be packaged and distributed across your team. These reusable workflows enable standardized security reviews, automated documentation, quality gates, and development loops that any team member can leverage.
-
-- **Lab 4:** Governed Claude Code across a team with the Claude Apps Gateway — SSO sign-in, per-group model access, and spend limits enforced server-side on every request. Routed identity-stamped usage telemetry into Amazon CloudWatch, where the managed Coding Agent Insights dashboards attribute cost, token usage, and productivity to individual developers with nothing to deploy. Explored governance controls including managed settings, security hooks, MCP approval workflows, and dev container isolation for sensitive environments.
-
-- **Lab 5:** Explored the broader Claude ecosystem beyond Claude Code — including Claude Agent SDK for building production agents on Amazon Bedrock AgentCore, Claude Desktop for visual and parallel development workflows, and the Claude API for custom integrations.
+---
 
 ## Additional Resources
 
 - [Claude Code documentation](https://docs.anthropic.com/en/docs/claude-code)
 - [Claude Code best practices](https://docs.anthropic.com/en/docs/claude-code/best-practices)
-- [Claude Code deployment patterns and best practices with Amazon Bedrock](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock)
-- [Anthropic on AWS workshop](https://catalog.workshops.aws/anthropic-on-aws/en-US)
-- [Equipping agents for the real world with Agent Skills](https://docs.anthropic.com/en/docs/claude-code/agent-skills)
+- [Claude Code on Amazon Bedrock — deployment guide](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock)
+- [Equipping agents with Agent Skills](https://docs.anthropic.com/en/docs/claude-code/agent-skills)
 - [Agent Toolkit for AWS](https://github.com/anthropics/agent-toolkit)
 - [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)
+- [Anthropic on AWS workshop](https://catalog.workshops.aws/anthropic-on-aws/en-US)
+
+---
 
 ## Repository Structure
 
@@ -172,6 +153,4 @@ Whether you're using Claude Code in the terminal, Claude Desktop for visual work
 └── 2048-react-game/           # Lab demo: React 2048 game built via the EPCC workflow
 ```
 
-## Workshop Link
-
-[Claude Code on Amazon Bedrock — AWS Workshop Catalog](https://catalog.workshops.aws/claude-code-on-amazon-bedrock/en-US)
+[Open in AWS Workshop Catalog](https://catalog.workshops.aws/claude-code-on-amazon-bedrock/en-US)
