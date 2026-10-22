@@ -1,6 +1,16 @@
 # Claude Code on Amazon Bedrock
 
-A hands-on workshop for supercharging team development with Claude Code on Amazon Bedrock. This full-day session covers setup, team standards, always-on agents, cost controls, and the broader Claude ecosystem.
+> Supercharge your team development with Claude Code on Bedrock
+
+In this hands-on workshop, you will learn how to accelerate team development and scale Claude Code deployments on Amazon Bedrock. You'll discover how to configure team environments, establish standards and workflows, and maximize Claude Code's capabilities to transform coding workflows — making code writing, debugging, testing, and project management more efficient across your organization. Additionally, you'll learn advanced deployment patterns for Claude agents using the Agent SDK on Amazon Bedrock AgentCore Runtime. The workshop emphasizes best practices from Anthropic and Amazon (such as AI-DLC, Spec-Driven Development, and Agent SOPs) to help teams get the most out of this powerful AI coding assistant.
+
+**Suitable for:** Developers, engineering leaders, technical leads, and DevOps professionals from small to large teams looking to learn Claude Code concepts to improve productivity and scale, and/or roll out Claude Code to their team.
+
+**Level:** 300 (Advanced) — No background knowledge necessary, though familiarity with TypeScript or Python and AWS services will be useful.
+
+**Duration:** ~3 hours
+
+> This workshop is optimized for AWS-run events. If running in your own AWS account, ensure you clean up any unused resources to avoid incurring costs.
 
 ## Agenda
 
@@ -68,3 +78,7 @@ A hands-on workshop for supercharging team development with Claude Code on Amazo
 ├── .claude/                   # Claude Code settings and custom commands
 └── 2048-react-game/           # Lab demo: React 2048 game built via the EPCC workflow
 ```
+
+## Workshop Link
+
+[Claude Code on Amazon Bedrock — AWS Workshop Catalog](https://catalog.workshops.aws/claude-code-on-amazon-bedrock/en-US)
