@@ -124,6 +124,28 @@ For fully custom integrations, the Claude API (via the Anthropic SDK or Amazon B
 
 Whether you're using Claude Code in the terminal, Claude Desktop for visual workflows, or the Claude API for custom integrations — your Amazon Bedrock configuration, spend limits, and governance policies apply consistently. The skills and patterns built in this workshop transfer directly to every Claude surface.
 
+## What You Accomplished
+
+- **Lab 1:** Configured Claude Code to work with Amazon Bedrock and learned deployment patterns for scaling across your team. Planned team capacity, monitored costs, and explored authentication and infrastructure options for production deployments.
+
+- **Lab 2:** Established team standards and workflows to enhance your development experience and enable effective team collaboration. Learned the Explore-Plan-Code-Commit methodology, extended Claude Code with Agent Toolkit for AWS and Agent Skills, automated browser tasks, managed large projects efficiently, integrated with git, and worked with multimodal data.
+
+- **Lab 3:** Explored advanced patterns that can be packaged and distributed across your team. These reusable workflows enable standardized security reviews, automated documentation, quality gates, and development loops that any team member can leverage.
+
+- **Lab 4:** Governed Claude Code across a team with the Claude Apps Gateway — SSO sign-in, per-group model access, and spend limits enforced server-side on every request. Routed identity-stamped usage telemetry into Amazon CloudWatch, where the managed Coding Agent Insights dashboards attribute cost, token usage, and productivity to individual developers with nothing to deploy. Explored governance controls including managed settings, security hooks, MCP approval workflows, and dev container isolation for sensitive environments.
+
+- **Lab 5:** Explored the broader Claude ecosystem beyond Claude Code — including Claude Agent SDK for building production agents on Amazon Bedrock AgentCore, Claude Desktop for visual and parallel development workflows, and the Claude API for custom integrations.
+
+## Additional Resources
+
+- [Claude Code documentation](https://docs.anthropic.com/en/docs/claude-code)
+- [Claude Code best practices](https://docs.anthropic.com/en/docs/claude-code/best-practices)
+- [Claude Code deployment patterns and best practices with Amazon Bedrock](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock)
+- [Anthropic on AWS workshop](https://catalog.workshops.aws/anthropic-on-aws/en-US)
+- [Equipping agents for the real world with Agent Skills](https://docs.anthropic.com/en/docs/claude-code/agent-skills)
+- [Agent Toolkit for AWS](https://github.com/anthropics/agent-toolkit)
+- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)
+
 ## Repository Structure
 
 ```
