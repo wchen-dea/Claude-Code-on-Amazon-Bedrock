@@ -26,8 +26,8 @@ In this hands-on workshop, you will learn how to accelerate team development and
 ## Session Details
 
 ### Introduction & Getting Started (15 min)
-- Supercharge your team development with Claude Code on Bedrock
-- Setup your workshop & IDE
+- Setup your workshop
+- Setup your IDE
 - Setup your AWS environment in terminal
 
 ### Lab 1: Setup Claude Code for Teams (60 min)
@@ -50,9 +50,23 @@ Learn advanced Claude Code techniques to enhance your development workflow and e
 - Learn the drawbacks of vibe coding and how the Explore-Plan-Code-Commit methodology provides systematic development with specialized agents
 - Learn context engineering with Agent Skills and how to scale domain expertise across your team through reusable, composable workflows
 - Manage large projects by maintaining context and navigating complex codebases efficiently
-- *(Optional)* Explore session productivity tips: ask side questions with `/btw`, run prompts on a schedule with `/loop`, and work with images, data, and Jupyter notebooks
-- *(Optional)* Use git and parallel workflows: leverage git worktrees, interact with project history, and orchestrate teams of Claude Code sessions
-- *(Optional)* Extend Claude Code with integrations: connect Agent Skills to remote APIs with browser automation, use Agent Toolkit for AWS for current documentation and scoped AWS inspection, and automate guardrails with hooks
+- *(Optional)* **Explore session productivity tips:**
+  - Ask side questions with `/btw`
+  - Drive work to completion with `/goal`
+  - Run prompts on a schedule with `/loop`
+  - Work beyond code: images, data, and Jupyter notebooks
+  - Automate guardrails and workflows with hooks
+  - Analyze your sessions with `/insights`
+  - Improve your skills with `/skill-creator`
+  - Tune your session with `/effort` and auto mode
+- *(Optional)* **Use git and parallel workflows:**
+  - Use git worktrees for parallel workflows
+  - Interact with git to understand project history and context
+  - Orchestrate teams of Claude Code sessions with agent teams
+  - Orchestrate with dynamic workflows
+- *(Optional)* **Extend Claude Code with integrations:**
+  - Connect Skills to remote APIs: browser automation using AgentCore Browser Tool
+  - Use Agent Toolkit for AWS with Claude Code
 
 ### Lab 3: Level Up Your Team with Always-On Agents, Plugins, and Search (45 min)
 
@@ -64,7 +78,10 @@ Scale beyond your local machine by running persistent agents, distributing reusa
 - **Run always-on agents** — Fire off a coding task, close your laptop, and come back to find the work done using Amazon Bedrock AgentCore Runtime
 - **Distribute workflows as plugins** — Install existing plugins, fork and customize them into your own marketplace, and enforce team-wide standards
 - **Add web search** — Connect Claude Code to real-time web information using Amazon Bedrock AgentCore
-- **Explore patterns and plugins** — Discover popular community plugins and try hands-on examples for documentation, quality gates, and more
+- **Explore patterns and plugins** — Discover popular community plugins and try hands-on examples:
+  - Example: Security review
+  - Example: Smart documentation
+  - Example: Quality gates
 
 ### Lab 4: Scale Confidently with Visibility, Cost Controls, and Secure Practices (45 min)
 
